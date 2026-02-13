@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HUD Timer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="timer-app" id="timerApp">
+    <header class="drag-bar">TAIMA HUD</header>
+
+    <div class="time" id="timeDisplay">20:00</div>
+
+    <div class="settings-row">
+      <label for="minutesInput">Min</label>
+      <input id="minutesInput" type="number" min="1" max="180" step="1" />
+      <button id="applyDurationBtn" class="small-btn">Set</button>
+      <button id="clickThroughBtn" class="small-btn">Pass Through: OFF</button>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <div class="notice" id="notice" aria-live="polite"></div>
+  </main>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
