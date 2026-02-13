@@ -1,0 +1,19 @@
+{
+  "name": "taima-hud-timer",
+  "version": "1.0.0",
+  "description": "Always-on-top HUD countdown timer built with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "timer",
+    "hud"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
+}
